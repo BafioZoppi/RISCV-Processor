@@ -3,7 +3,12 @@
 Ho realizzato questo progetto nel mese di luglio 2024 per l'esame di Computer Architecture for Physics nella laurea magistrale in Fisica presso La Sapienza (Roma).  
 Lo scopo del progetto è quello di progettare e simulare un processore RISCV in VHDL.  
 La richiesta più ardua di questo progetto riguarda la realizzazione di una pipeline.  
-Non è richiesto di implementare tutte le istruzioni dell'ISA di RISCV, ma mi è stato permesso di implementare solo un numero ristretto di istruzioni, tale da permettermi di eseguire un algoritmo di bubble sort.
+Non è richiesto di implementare tutte le istruzioni dell'ISA di RISCV, ma mi è stato permesso di implementare solo un numero ristretto di istruzioni, tale da permettermi di eseguire un algoritmo di bubble sort.  
+I file VHDL sono stati analizzati e simulati con successo utilizzando GHDL. Per leggere gli output delle simulazioni ho invece usato gtkwaves.
+
+Oltre al processore in VHDL ho scritto dei codici in assembly da eseguire sul processore stesso.  
+Non mi è chiaro come funzioni la compilazione "bare metal" e pertanto ho compilato questi codici con il simulatore Ripes.  
+Sono inclusi in questo repo i file binari ottenuti da questa compilazione.
 
 Includo in questo repo una tesina descrittiva del progetto, che descrive in breve le mie scelte nella realizzazione del progetto stesso.
 
